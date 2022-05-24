@@ -7,6 +7,9 @@
 .header{
     padding: 30px;
 }
+.header__marquee{
+    font-size: 30px;
+}
 .header__title{
     text-align: center;
     font-size: 120px;
@@ -28,31 +31,62 @@
     95%   { opacity:0; }
     100% { opacity:1; }
   }
-.header__nav--list{
+.header__nav--list {
     display: flex;
     font-size: 80px;
     justify-content: space-evenly;
+    color: rgb(177, 177, 177);
+    
 }
 .list__jedi:hover {
     transition-delay: 10ms;
     color: rgb(42, 165, 52);
     transform: scale(1.2);
+    font-weight: bold;
 }
 .list__sith:hover {
     transition-delay: 10ms;
     color: rgb(184, 25, 25);
     transform: scale(1.2);
+    font-weight: bold;
 }
 .list__republique:hover {
     transition-delay: 10ms;
     color: rgb(36, 141, 211);
     transform: scale(1.2);
+    font-weight: bold;
 
 }
 .list__empire:hover {
     transition-delay: 10ms;
     color: rgb(163, 73, 0);
     transform: scale(1.2);
+    font-weight: bold;
 }
-/* test */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    padding: 80px 20px;
+    margin: 0 80px;
+    border-top: 2px solid yellow;
+
+}
+.main section{
+    width: 50%;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.main h2{
+    text-align: center;
+    padding: 20px 0;
+}
+.main p{
+    padding: 40px;
+}
+.right-side__title strong{
+    text-decoration: line-through;
+    text-decoration-color: brown;
+}
 
